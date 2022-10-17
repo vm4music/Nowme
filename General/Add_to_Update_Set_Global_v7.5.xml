@@ -739,7 +739,7 @@ addToUpdateSetUtils.prototype = {
 
     /*
      * saveRecord input variables:
-     * - tableRec = record that will be added to the update set
+     * - tableRec = record that will be added to the update set.
      * - validRecordCheck = by default saveRecord will validate that the record being added to the update set is an actual record in the database
      *       using the GlideRecord isValidRecord() function.  If you have a use case where you want to dynamically create a record and add it to
      *       an update set, set the parameter to false and the record will be added to the set.
