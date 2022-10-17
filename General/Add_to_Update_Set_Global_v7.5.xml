@@ -706,7 +706,7 @@ addToUpdateSetUtils.prototype = {
         }
 
         if (processParentTable) {
-            // Check for table needs at parent table level
+            // Check for table needs at parent table level. 
             var tableBase = this._getTableBase(tableName);
             switch (tableBase) {
                 case "sc_cat_item":
