@@ -1,0 +1,3 @@
+https://tnetworkssandpit.service-now.com/$sp.do?id=sp-preview&sys_id=16691243db606b40488c87f43a961960
+https://tnetworkssandpit.service-now.com/sp_config?id=ticket_field_hazard
+https://tnetworkssandpit.service-now.com/sp?id=ticket_field_hazard
