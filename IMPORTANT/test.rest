@@ -22,7 +22,4 @@ grant_type=refresh_token
 
 ### get Incidents
 GET {{baseUrl}}/api/now/table/incident?sysparm_fields=number%2Ccategory&sysparm_limit=1 HTTP/1.1
-Authorization: Bearer T_R33heW3sJU9H279i0i_0kZ7CtnmhqrOUtWsabjKkBtfkUgCtp9gj-gjbonPa4fW1YUhzTO350n5hh7Ts38UA 
-
-
-
+Authorization: Bearer rv1-q0Xn27Gb-G7ghnskUpFWXsvJPjuvhgWJScgAiFidVdpjZO67lngk3iC1PbANRFpZ-ZRB2C_eWX6Qwbm4Ag 
