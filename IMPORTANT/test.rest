@@ -1,0 +1,28 @@
+
+@baseUrl = https://dev167003.service-now.com
+
+POST {{baseUrl}}/oauth_token.do HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password
+&client_id=b93f9acac60031106ad632cd61e72f1e
+&client_secret=AS4j69uxsB
+&username=admin
+&password=fxt%F1FZd=R2
+
+###
+POST {{baseUrl}}/oauth_token.do HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=refresh_token
+&refresh_token=WBSMC4ASnuGbo5aJezwshI0NPdSwW-254Gvm_BIrlZ8vh86Rs0KE2xJW-_EFRDcWt71EcnQ2NzCU7ulRblPoTg
+&client_id=b93f9acac60031106ad632cd61e72f1e
+&client_secret=AS4j69uxsB
+
+
+### get Incidents
+GET {{baseUrl}}/api/now/table/incident?sysparm_fields=number%2Ccategory&sysparm_limit=1 HTTP/1.1
+Authorization: Bearer T_R33heW3sJU9H279i0i_0kZ7CtnmhqrOUtWsabjKkBtfkUgCtp9gj-gjbonPa4fW1YUhzTO350n5hh7Ts38UA 
+
+
+
